@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: a6178b5c5f20f5e45b9628c5711f6013, type: 3}
+  title: CIVIL-AI-SYSTEM
+  sections:
+  - heading:
+    text: 'Thank you for purchasing CIVIL-AI-SYSTEM. Media has been created to help with training and to explain the product which is linked below. We are open to feedback and helping with issues you face with the product, to report these look at the ‘Feature Requests and Bugs’ sections. '
+    linkText: 
+    url: 
+  - heading: Getting Started
+    text: 'A breakdown of how to get started can be found here:'
+    linkText: text form
+    url: https://github.com/IsaacMulcahy/RPG-AI-SYSTEM-WIKI/wiki/Getting-Started
+  - heading:
+    text: 'How to setup your scene'
+    linkText: video
+    url: https://www.youtube.com/watch?v=E2kofpVB9UE&t=1s
+  - heading:
+    text: 'Creating your own behaviours'
+    linkText: video
+    url: https://www.youtube.com/watch?v=E2kofpVB9UE&t=1s
+  - heading: Feature Requests and Bugs
+    text: 'Official channels have been setup for these'
+    linkText: Click here
+    url: https://github.com/IsaacMulcahy/RPG-AI-SYSTEM-WIKI/issues/new/choose
+  - heading: Documentation
+    text: 'Wiki - If there is anything you think that should improved or missing from the wiki feel free to request it using the official channels linked above (‘Feature Requests and Bugs’)'
+    linkText: Click here
+    url: https://github.com/IsaacMulcahy/RPG-AI-SYSTEM-WIKI/wiki
+  - heading: Feedback
+    text: 'If you have the time it would be really appreciated if you could leave a review on the asset store'
+    linkText: Review
+    url: https://assetstore.unity.com/packages/tools/ai/civil-ai-system-231069#reviews
+  - heading: Discord
+    text: 'Join our discord for support, updates and more'
+    linkText: Discord
+    url: https://discord.gg/WNJAjaCmAh
+  loadedLayout: 1

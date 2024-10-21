@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 055f435ae62357e4399fdbd9ce82128b, type: 3}
+  m_Name: MethodList
+  m_EditorClassIdentifier: 
+  nodes:
+    _keys:
+    - 8cbf51b5-6d90-4988-89ea-8b66beae7dda
+    - a201ea8f-1587-434d-bc80-a714e91a250b
+    - 843b0d3f-1fb7-4ff5-a305-aebffc9ad5c3
+    _values:
+    - id: 8cbf51b5-6d90-4988-89ea-8b66beae7dda
+      nodeConnection:
+      - guid: 6ef77e8a-205e-4c3c-9b45-8e856c8f1be5
+        requirementData:
+          id: 0
+      - guid: a58bf274-5f92-42a8-b67e-2c6cbf8eb51b
+        requirementData:
+          id: 1
+      iterator: 0
+      globalWeighting: 1
+      localWeighting: 0
+      name: In own bed
+      desc: 
+      range:
+      - 0
+      - 0
+      affect: 150
+    - id: a201ea8f-1587-434d-bc80-a714e91a250b
+      nodeConnection:
+      - guid: 384363a3-455d-43e1-abbb-835bae19c868
+        requirementData:
+          id: 0
+      - guid: c916f9ba-f688-4f85-b679-5c8d570fc27a
+        requirementData:
+          id: 2
+      - guid: 61ec38d9-bebb-448b-9ca2-05bce32808c6
+        requirementData:
+          id: 0
+      - guid: 88859cc1-daba-4db4-a5f3-627a326ac091
+        requirementData:
+          id: 3
+      iterator: 0
+      globalWeighting: 1
+      localWeighting: 0
+      name: Get Food
+      desc: 
+      range:
+      - 0
+      - 0
+      affect: 300
+    - id: 843b0d3f-1fb7-4ff5-a305-aebffc9ad5c3
+      nodeConnection:
+      - guid: 269443a8-2ad7-4132-b822-f436d04cd46d
+        requirementData:
+          id: 4
+      iterator: 0
+      globalWeighting: 1
+      localWeighting: 0
+      name: Snack
+      desc: 
+      range:
+      - 0
+      - 0
+      affect: 100
+  references:
+    version: 1
+    00000000:
+      type: {class: , ns: , asm: }
+    00000001:
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: a58bf274-5f92-42a8-b67e-2c6cbf8eb51b
+        customAnimation: {fileID: 5539831331247536789, guid: 98f277b0c8055e143b2fcf058d3c27dc,
+          type: 3}
+        waitTime: 120
+    00000002:
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: c916f9ba-f688-4f85-b679-5c8d570fc27a
+        customAnimation: {fileID: -3100369314251171874, guid: 12e52e465ed793a4d801955e9f964a82,
+          type: 3}
+        waitTime: 5
+    00000003:
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: 88859cc1-daba-4db4-a5f3-627a326ac091
+        customAnimation: {fileID: -3100369314251171874, guid: 12e52e465ed793a4d801955e9f964a82,
+          type: 3}
+        waitTime: 5
+    00000004:
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: 269443a8-2ad7-4132-b822-f436d04cd46d
+        customAnimation: {fileID: 5539831331247536789, guid: 98f277b0c8055e143b2fcf058d3c27dc,
+          type: 3}
+        waitTime: 10

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeaaaf557378ad748946d17a2f4352c3, type: 3}
+  m_Name: TaskMethodList
+  m_EditorClassIdentifier: 
+  methods:
+  - id: 233e055a-fd05-4339-88fc-773fdc5c7682
+    nodeConnection:
+    - guid: 92616fe4-00b5-4c68-9de0-2f250348a71f
+      requirementData:
+        rid: -2
+    - guid: 3111e520-6566-4085-91f2-16c5a0acc694
+      requirementData:
+        rid: 3628339385327943963
+    iterator: 0
+    globalWeighting: 0
+    localWeighting: 0
+    name: Find Nearby Tree
+    desc: testing
+  - id: fdfa0257-2e6e-4759-a2a9-71912cb702d0
+    nodeConnection:
+    - guid: 908b47db-96f1-4f42-b0af-c398ea9cc4dd
+      requirementData:
+        rid: -2
+    - guid: 3111e520-6566-4085-91f2-16c5a0acc694
+      requirementData:
+        rid: 3628339385327943964
+    iterator: 0
+    globalWeighting: 0
+    localWeighting: 0
+    name: Find Tree over mountin
+    desc: testing
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3628339385327943963
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: 3111e520-6566-4085-91f2-16c5a0acc694
+        customAnimation: {fileID: 5539831331247536789, guid: 98f277b0c8055e143b2fcf058d3c27dc, type: 3}
+        waitTime: 60
+    - rid: 3628339385327943964
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: 3111e520-6566-4085-91f2-16c5a0acc694
+        customAnimation: {fileID: 5539831331247536789, guid: 98f277b0c8055e143b2fcf058d3c27dc, type: 3}
+        waitTime: 60

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030a8dfedcfd58d45bed6dedbca2fbda, type: 3}
+  m_Name: JobList
+  m_EditorClassIdentifier: 
+  jobs:
+  - id: 97f9ff56-3c50-4dda-a517-34cdce8c3590
+    nodeConnection:
+    - guid: d5134573-86b2-412c-84bf-1243e953fe88
+      requirementData:
+        rid: 7916429372192718866
+    - guid: a78faa46-ed08-407a-820c-26ed95af5ced
+      requirementData:
+        rid: 7916429372192718867
+    iterator: 0
+    globalWeighting: 0
+    localWeighting: 0
+    name: Fishermen
+    desc: stuff
+    startTime: 600
+    endTime: 1500
+    weighting: 0
+    useGlobals: 1
+    checkIn: 0
+  - id: ae5bb08e-5860-4a9e-b9d1-f7cd95263adf
+    nodeConnection:
+    - guid: 79005886-eb1e-485e-b284-df706db57564
+      requirementData:
+        rid: -2
+    iterator: 0
+    globalWeighting: 0
+    localWeighting: 0
+    name: Woodcutter
+    desc: stuff
+    startTime: 800
+    endTime: 1700
+    weighting: 0
+    useGlobals: 0
+    checkIn: 0
+  - id: 466209d6-aaf4-466c-8f50-45ac013290f9
+    nodeConnection:
+    - guid: b240fbde-e4e6-4693-a96b-5bed4bc8a571
+      requirementData:
+        rid: 7916429372192718868
+    - guid: 1fe09ffc-0b74-44ab-9ef3-b1b031cfc10e
+      requirementData:
+        rid: -2
+    iterator: 0
+    globalWeighting: 0
+    localWeighting: 0
+    name: Sawmill Worker
+    desc: stuff
+    startTime: 1000
+    endTime: 1800
+    weighting: 0
+    useGlobals: 1
+    checkIn: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7916429372192718866
+      type: {class: RequirementGeneral, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: d5134573-86b2-412c-84bf-1243e953fe88
+        timeWindow:
+          enabled: 1
+          startTime: 600
+          endTime: 1200
+        itemNeeded: 0
+        workPlaceStateRequirment:
+          numberOfWorkers: 0
+          operatorForWorkplaceState: -2
+          subNode:
+            id: 
+            nodeConnection: []
+            iterator: 0
+            globalWeighting: 0
+            localWeighting: 0
+          enabled: 0
+        nodeLevel: 0
+    - rid: 7916429372192718867
+      type: {class: RequirementGeneral, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: a78faa46-ed08-407a-820c-26ed95af5ced
+        timeWindow:
+          enabled: 1
+          startTime: 1200
+          endTime: 1300
+        itemNeeded: 0
+        workPlaceStateRequirment:
+          numberOfWorkers: 0
+          operatorForWorkplaceState: -2
+          subNode:
+            id: 
+            nodeConnection: []
+            iterator: 0
+            globalWeighting: 0
+            localWeighting: 0
+          enabled: 0
+        nodeLevel: 0
+    - rid: 7916429372192718868
+      type: {class: RequirementGeneral, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: b240fbde-e4e6-4693-a96b-5bed4bc8a571
+        timeWindow:
+          enabled: 1
+          startTime: 1000
+          endTime: 1700
+        itemNeeded: 0
+        workPlaceStateRequirment:
+          numberOfWorkers: 0
+          operatorForWorkplaceState: -2
+          subNode:
+            id: 
+            nodeConnection: []
+            iterator: 0
+            globalWeighting: 0
+            localWeighting: 0
+          enabled: 0
+        nodeLevel: 0

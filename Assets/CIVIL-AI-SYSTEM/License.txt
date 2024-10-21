@@ -1,0 +1,17 @@
+Most assets within this package are under the Asset Store’s standard End User License Agreement.
+	For full license terms, please see: https://unity.com/legal/as-terms
+
+Please see below for exceptions to this.
+
+Unity Companion License
+	
+	For full license terms, please see: https://unity3d.com/legal/licenses/Unity_Companion_License
+
+	The assets and folders this applies to are listed below:
+		- Art/FBX
+		- Art/Materials
+		- Art/Models
+		- Art/Textures
+		- Prefab/Enviroment
+		- Prefab/NPC (Just media)
+		- Prefab/Item/Tree (Just Media)

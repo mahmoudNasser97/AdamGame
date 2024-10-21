@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5143c0eccbd5a264cae2363e55042607, type: 3}
+  m_Name: DutyList
+  m_EditorClassIdentifier: 
+  duties:
+  - id: f441fa0e-9d9c-4e05-9c45-ee5c968f7514
+    nodeConnection:
+    - guid: 7cdacfeb-c7ad-4420-b151-2fcee9a4b895
+      requirementData:
+        rid: -2
+    iterator: 0
+    globalWeighting: 0
+    localWeighting: 0
+    name: Find Tree and Cut down
+    desc: 
+    weighting: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }

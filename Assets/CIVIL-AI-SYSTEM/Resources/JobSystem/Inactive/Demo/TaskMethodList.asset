@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeaaaf557378ad748946d17a2f4352c3, type: 3}
+  m_Name: TaskMethodList
+  m_EditorClassIdentifier: 
+  methods:
+  - id: dd7f4d28-2b2b-4bcb-ad95-9ca0c6048e80
+    nodeConnection:
+    - guid: a5978c30-cead-4936-8639-a32182319942
+      requirementData:
+        rid: -2
+    - guid: 362d8bb2-338c-41ef-99c4-bc017e71958d
+      requirementData:
+        rid: 7916429372192718869
+    - guid: 8a3dfb82-63dd-42c8-bcec-e696587924b3
+      requirementData:
+        rid: -2
+    - guid: 05f6c42b-ed0a-4af0-87e9-9e9f6ca5841c
+      requirementData:
+        rid: 7916429372192718870
+    iterator: 0
+    globalWeighting: 0
+    localWeighting: 0
+    name: Via lake
+    desc: testing
+  - id: ed60e352-6c66-43eb-bf8b-d36941efc12d
+    nodeConnection:
+    - guid: 4891e71c-b8e7-4088-b898-d07ebcffc613
+      requirementData:
+        rid: -2
+    - guid: 5ed5262d-7d8e-427c-8afd-d9858dc4a424
+      requirementData:
+        rid: 7916429372192718871
+    iterator: 0
+    globalWeighting: 0
+    localWeighting: 0
+    name: New Method
+    desc: testing
+  - id: c6a83052-4110-4811-9105-b6d6b9c164e4
+    nodeConnection:
+    - guid: f98eecf5-7b4e-48bb-a6eb-4ac4ec0daa8e
+      requirementData:
+        rid: -2
+    - guid: c0702004-0670-4359-9caa-1025ca030267
+      requirementData:
+        rid: 7916429372192718872
+    - guid: a74b9de8-1b0d-4e10-878a-8445c7711c30
+      requirementData:
+        rid: 7916429372192718873
+    - guid: e0add983-b00f-405e-aae6-a0ea7bf2e035
+      requirementData:
+        rid: -2
+    - guid: fb0fae8f-f375-4a92-bc7b-eab1cee8a904
+      requirementData:
+        rid: -2
+    iterator: 0
+    globalWeighting: 0
+    localWeighting: 0
+    name: Small Tree with Axe
+    desc: testing
+  - id: c327902a-11bd-4249-9622-20332480daf3
+    nodeConnection:
+    - guid: cf93778c-a602-463d-ba91-404771af69ec
+      requirementData:
+        rid: -2
+    - guid: 6b75c7a2-7c6f-4ba5-a01f-80ab79688085
+      requirementData:
+        rid: -2
+    - guid: a838e6a0-bb30-40bc-985f-2f910c7e3b65
+      requirementData:
+        rid: -2
+    - guid: dbb03dca-7905-4c02-b2a9-c8f19a8c3a47
+      requirementData:
+        rid: 7916429372192718874
+    - guid: b0ae9466-d229-4712-a8b6-6b9d1caa2faa
+      requirementData:
+        rid: -2
+    - guid: 39575eb1-9ffe-4598-a2dd-dc01723a9e5d
+      requirementData:
+        rid: 7916429372192718875
+    iterator: 0
+    globalWeighting: 0
+    localWeighting: 0
+    name: From Store
+    desc: testing
+  - id: 96130bd8-e3ed-4c40-9ac1-b8f47e43d0ef
+    nodeConnection:
+    - guid: 1d385385-756f-42a5-8584-30b64f8711ab
+      requirementData:
+        rid: -2
+    - guid: 86150bae-b203-458f-b260-1d9e8f46e1f1
+      requirementData:
+        rid: -2
+    - guid: 776334b2-17a1-4d0b-9e12-d4c7ac1e1d3b
+      requirementData:
+        rid: -2
+    - guid: 7f400e26-324a-4cba-b1ec-3f2f3301adf0
+      requirementData:
+        rid: -2
+    iterator: 0
+    globalWeighting: 0
+    localWeighting: 0
+    name: From Woodcutter
+    desc: testing
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7916429372192718869
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: 362d8bb2-338c-41ef-99c4-bc017e71958d
+        customAnimation: {fileID: 5539831331247536789, guid: 98f277b0c8055e143b2fcf058d3c27dc,
+          type: 3}
+        waitTime: 60
+    - rid: 7916429372192718870
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: 05f6c42b-ed0a-4af0-87e9-9e9f6ca5841c
+        customAnimation: {fileID: -3100369314251171874, guid: 12e52e465ed793a4d801955e9f964a82,
+          type: 3}
+        waitTime: 30
+    - rid: 7916429372192718871
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: 5ed5262d-7d8e-427c-8afd-d9858dc4a424
+        customAnimation: {fileID: -3100369314251171874, guid: 12e52e465ed793a4d801955e9f964a82,
+          type: 3}
+        waitTime: 60
+    - rid: 7916429372192718872
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: c0702004-0670-4359-9caa-1025ca030267
+        customAnimation: {fileID: 5539831331247536789, guid: 98f277b0c8055e143b2fcf058d3c27dc,
+          type: 3}
+        waitTime: 30
+    - rid: 7916429372192718873
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: a74b9de8-1b0d-4e10-878a-8445c7711c30
+        customAnimation: {fileID: -3100369314251171874, guid: 12e52e465ed793a4d801955e9f964a82,
+          type: 3}
+        waitTime: 15
+    - rid: 7916429372192718874
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: dbb03dca-7905-4c02-b2a9-c8f19a8c3a47
+        customAnimation: {fileID: 0}
+        waitTime: 30
+    - rid: 7916429372192718875
+      type: {class: RequirementAction, ns: AISystem, asm: RPG-AI-SYSTERM}
+      data:
+        connectedNodeID: 39575eb1-9ffe-4598-a2dd-dc01723a9e5d
+        customAnimation: {fileID: -3100369314251171874, guid: 12e52e465ed793a4d801955e9f964a82,
+          type: 3}
+        waitTime: 2
