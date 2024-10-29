@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: fe73f47833bcc754db355139f26e82e9
+  - enabled: 1
+    path: Assets/Fantastic Village Pack/scenes/demoscene_village_day.unity
+    guid: bd65a1548188fa848a1e8683a948263d
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
