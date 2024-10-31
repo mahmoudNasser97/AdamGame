@@ -10,6 +10,10 @@ public class CoinsManager : MonoBehaviour
     public int Coins { get; private set; }
     public event Action OnCurrencyChanged;
 
+    private void Awake()
+    {
+        LoadCurrency();
+    }
     private void Start()
     {
         LoadCurrency();
@@ -47,6 +51,11 @@ public class CoinsManager : MonoBehaviour
         PlayerPrefs.Save();
     }
     private void LoadCurrency()
+    {
+        Coins = PlayerPrefs.GetInt(CoinsKey, 0);
+        OnCurrencyChanged?.Invoke();
+    }
+    public void GetCurrencyUpdate()
     {
         Coins = PlayerPrefs.GetInt(CoinsKey, 0);
         OnCurrencyChanged?.Invoke();

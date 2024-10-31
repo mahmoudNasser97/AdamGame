@@ -6,17 +6,18 @@ using UnityEngine;
 
 public class CoinReward : MonoBehaviour
 {
-    [SerializeField] private GameObject coinPrefab;                  // Reference to a single coin prefab
-    [SerializeField] private TextMeshProUGUI counter;                // UI counter to display total coins
-    [SerializeField] private RectTransform targetTransform;          // Target RectTransform (UI Position)
-    [SerializeField] private Transform coinSpawnPoint;               // Optional spawn point for coins
+    [SerializeField] private GameObject coinPrefab;
+    [SerializeField] private TextMeshProUGUI counter;
+    [SerializeField] private RectTransform targetTransform;
+    [SerializeField] private Transform coinSpawnPoint;
+    [SerializeField] CoinsManager coinManager;
 
     [Header("Animation Options")]
-    [SerializeField] private AnimationType animationType = AnimationType.Bounce; // Animation type option
-    [SerializeField] private float bounceIntensity = 1.5f;            // Bounce intensity for animations
-    [SerializeField] private float scaleMultiplier = 1.2f;            // Scale multiplier for scaling effects
-    [SerializeField] private float fadeDuration = 0.5f;               // Duration for fade animations
-    [SerializeField] private float moveDuration = 0.8f;               // Duration for the move animation
+    [SerializeField] private AnimationType animationType = AnimationType.Bounce;
+    [SerializeField] private float bounceIntensity = 1.5f;
+    [SerializeField] private float scaleMultiplier = 1.2f;
+    [SerializeField] private float fadeDuration = 0.5f;
+    [SerializeField] private float moveDuration = 0.8f;
 
     private int coinsAmount;
 
@@ -31,22 +32,23 @@ public class CoinReward : MonoBehaviour
     public void AdjustCoinsAmount(int newCoinsAmount)
     {
         coinsAmount = newCoinsAmount;
-
-        for (int i = 0; i < coinsAmount; i++)
+        if (coinManager.Coins >= 0)
         {
-            GameObject coin = Instantiate(coinPrefab, coinSpawnPoint.position, Quaternion.identity, transform);
-            RectTransform coinRect = coin.GetComponent<RectTransform>();
-            coinRect.anchoredPosition = ((RectTransform)coinSpawnPoint).anchoredPosition;
+            coinManager.GetCurrencyUpdate();
+            for (int i = 0; i < coinsAmount; i++)
+            {
+                GameObject coin = Instantiate(coinPrefab, coinSpawnPoint.position, Quaternion.identity, transform);
+                RectTransform coinRect = coin.GetComponent<RectTransform>();
+                coinRect.anchoredPosition = ((RectTransform)coinSpawnPoint).anchoredPosition;
 
-            AnimateCoin(coin, i * 0.1f);                          // Animate with a slight delay for each coin
+                AnimateCoin(coin, i * 0.1f);
+            }
         }
     }
 
     private void AnimateCoin(GameObject coin, float delay)
     {
         RectTransform coinRect = coin.GetComponent<RectTransform>();
-
-        // Scale up animation
         switch (animationType)
         {
             case AnimationType.Bounce:
@@ -63,20 +65,16 @@ public class CoinReward : MonoBehaviour
                 break;
         }
 
-        // Move to target position with ease and delay
         coinRect.DOAnchorPos(targetTransform.anchoredPosition, moveDuration)
-            .SetDelay(delay + 0.5f).SetEase(Ease.OutQuad) // Smooth easing for movement
+            .SetDelay(delay + 0.5f).SetEase(Ease.OutQuad)
             .OnComplete(() =>
             {
-                // Add a slight bounce effect at the end position
                 coinRect.DOScale(1.1f, 0.2f).SetEase(Ease.OutBack)
                     .OnComplete(() => coinRect.DOScale(1f, 0.2f).SetEase(Ease.OutBack));
             });
-
-        // Rotate and scale down animations
         coin.transform.DORotate(Vector3.zero, 0.5f).SetDelay(delay + 0.5f).SetEase(Ease.Flash);
         coin.transform.DOScale(0f, 0.3f).SetDelay(delay + 1.5f).SetEase(Ease.OutBack)
-            .OnComplete(() => Destroy(coin));                     // Destroy the coin after animation
+            .OnComplete(() => Destroy(coin));
     }
 
     private IEnumerator CountDollars()
