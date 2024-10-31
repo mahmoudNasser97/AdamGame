@@ -417,10 +417,10 @@ RectTransform:
   - {fileID: 444048487}
   - {fileID: 705967789}
   - {fileID: 591857720}
+  - {fileID: 7906045787269823506}
+  - {fileID: 2087740424}
   - {fileID: 7287588821943968211}
   - {fileID: 266373823}
-  - {fileID: 2087740424}
-  - {fileID: 7906045787269823506}
   - {fileID: 2453907360660411115}
   - {fileID: 5093605394690771986}
   - {fileID: 771512252}
@@ -447,6 +447,7 @@ MonoBehaviour:
   counter: {fileID: 1898645249}
   targetTransform: {fileID: 771512252}
   coinSpawnPoint: {fileID: 3906898564366300222}
+  coinManager: {fileID: 324535685}
   animationType: 3
   bounceIntensity: 0.43
   scaleMultiplier: 0.53
@@ -2889,12 +2890,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 324535685}
         m_TargetAssemblyTypeName: CoinsManager, Assembly-CSharp
-        m_MethodName: SubtractAllCoins
-        m_Mode: 1
+        m_MethodName: SubtractCoins
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3000
+          m_IntArgument: 500
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
