@@ -419,7 +419,7 @@ MonoBehaviour:
   - id: 5
     fields:
     - title: Name
-      value: IsLakeFixed
+      value: IsLinkCreated
       type: 0
       typeString: 
     - title: Initial Value
@@ -2211,8 +2211,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 395.54718
-        y: 62.264145
+        x: 392
+        y: 50
         width: 160
         height: 30
     - id: 1
@@ -2303,7 +2303,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: SetActive(lakeCleaningArea,true)
+        value: 
         type: 0
         typeString: 
       conversationID: 4
@@ -2626,7 +2626,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Did you fix it ? '
+        value: 'Did you Clean it ? '
         type: 0
         typeString: 
       - title: Sequence
@@ -2660,8 +2660,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 504.3429
-        y: 137.98169
+        x: 600
+        y: 134
         width: 160
         height: 30
     - id: 16
@@ -2708,15 +2708,15 @@ MonoBehaviour:
         destinationDialogueID: 18
         isConnector: 0
         priority: 2
-      conditionsString: Variable["IsLakeFixed.Num"] == 1
+      conditionsString: Variable["IsLakeFixed.Num"] >= 32
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 489.96548
-        y: 270.0949
+        x: 496
+        y: 218
         width: 160
         height: 30
     - id: 17
@@ -2764,8 +2764,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 688.5315
-        y: 268.20813
+        x: 704
+        y: 218
         width: 160
         height: 30
     - id: 18
@@ -2791,18 +2791,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Thank you
+        value: Okay now Go and Link the lake with the river
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(CartQuest (1),false);
-
-          SetActive(P_FX_water_FVP
-          (2),true);
-
-          SetActive(0_Dirtylake,false);
-
-          SetActive(LakeMagic,true)'
+        value: 
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -2816,21 +2809,76 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 18
+        destinationConversationID: 4
+        destinationDialogueID: 19
+        isConnector: 0
+        priority: 2
       conditionsString: 
-      userScript: SetQuestState("FixTheLake", "success")
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 480.5316
-        y: 353.15152
+        x: 496
+        y: 302
+        width: 160
+        height: 30
+    - id: 19
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Okay Sure
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: SetActive(lakeCleaningArea,true)
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 524.46155
+        y: 403.6923
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 30.591675, y: 47.300297}
-    canvasZoom: 1.0900003
+    canvasScrollPosition: {x: 456.63678, y: 20.404238}
+    canvasZoom: 1.2699999
   syncInfo:
     syncActors: 0
     syncItems: 0
