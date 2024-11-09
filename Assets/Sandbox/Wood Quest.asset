@@ -305,7 +305,7 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 1
-      value: '[var=Chairs.NumCollected]/5 Collected'
+      value: '[var=Chairs.NumCollected]/25 Collected'
       type: 0
       typeString: 
   - id: 4
@@ -1751,7 +1751,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Did you find the MDF wooden chairs  ?
+        value: Did you find the MDF wood  ?
         type: 0
         typeString: 
       - title: Sequence
@@ -1786,7 +1786,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 392
-        y: 134
+        y: 133.11505
         width: 160
         height: 30
     - id: 3
@@ -1861,8 +1861,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Yes, I need You to collect MDF wooden Chairs to start Building this
-          Classroom under this big tree
+        value: Yes, I need You to collect MDF wood to start Building this Classroom
+          under this big tree
         type: 0
         typeString: 
       - title: Sequence
@@ -1990,15 +1990,15 @@ MonoBehaviour:
         destinationDialogueID: 8
         isConnector: 0
         priority: 2
-      conditionsString: Variable["Chairs.NumCollected"] >= 5
+      conditionsString: Variable["Chairs.NumCollected"] >= 25
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 218
+        x: 289.02042
+        y: 216.97961
         width: 160
         height: 30
     - id: 7
@@ -2106,8 +2106,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 13.813423, y: 0}
-    canvasZoom: 1.010001
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.980001
   - id: 4
     fields:
     - title: Title
@@ -2204,6 +2204,12 @@ MonoBehaviour:
         destinationDialogueID: 15
         isConnector: 0
         priority: 2
+      - originConversationID: 4
+        originDialogueID: 0
+        destinationConversationID: 4
+        destinationDialogueID: 20
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -2211,7 +2217,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 392
+        x: 496
         y: 50
         width: 160
         height: 30
@@ -2357,7 +2363,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Thank you Adam ! Go to yellow Area to start fixing it!
+        value: Thank you Adam ! Go to the Lake and start cleaning
         type: 0
         typeString: 
       - title: Sequence
@@ -2691,7 +2697,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetActive(0_Dirtylake,false)
         type: 0
         typeString: 
       conversationID: 4
@@ -2872,13 +2878,117 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 524.46155
-        y: 403.6923
+        x: 496
+        y: 386
+        width: 160
+        height: 30
+    - id: 20
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Thank you Adam !
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: SetActive(LakeMagic,true)
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 4
+        originDialogueID: 20
+        destinationConversationID: 4
+        destinationDialogueID: 21
+        isConnector: 0
+        priority: 2
+      conditionsString: CurrentQuestState("FixTheLake") == "success"
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 912
+        y: 134
+        width: 160
+        height: 30
+    - id: 21
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 5
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: You are welcome!
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 4
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 925.8298
+        y: 240.3404
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 456.63678, y: 20.404238}
-    canvasZoom: 1.2699999
+    canvasScrollPosition: {x: 0, y: 1.5625}
+    canvasZoom: 0.6400006
   syncInfo:
     syncActors: 0
     syncItems: 0
