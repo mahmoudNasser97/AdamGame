@@ -165,7 +165,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.DefaultCompany.ThirdPersonOpenWorld
+    Standalone: com.Adam-Game.AdamThirdPerson
   buildNumber:
     Standalone: 0
     VisionOS: 0

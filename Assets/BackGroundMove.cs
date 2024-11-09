@@ -9,11 +9,10 @@ public class BackGroundMove : MonoBehaviour
     public float duration = 5f;
     public Ease easeEffect;
 
-    void Start()
+    void Update()
     {
         // Move left and right continuously
-        transform.DOMoveX(transform.position.x + moveDistance, duration)
-            .SetEase(easeEffect)
-            .SetLoops(-1, LoopType.Yoyo);
+        transform.DOMoveX(transform.position.x - moveDistance, duration)
+            .SetEase(easeEffect);
     }
 }
