@@ -375,9 +375,13 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Entry 1
-      value: Cleaned Lake
+      value: '[var=IsLakeFixed.Num]/35 Removed'
       type: 0
       typeString: 
+    - title: Entry 1 [var=IsLakeFixed.Num]/35 Removed
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
   locations: []
   variables:
   - id: 1
@@ -3344,8 +3348,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 1.5625}
-    canvasZoom: 0.6400006
+    canvasScrollPosition: {x: 43.59735, y: 0}
+    canvasZoom: 0.8200004
   - id: 5
     fields:
     - title: Title
