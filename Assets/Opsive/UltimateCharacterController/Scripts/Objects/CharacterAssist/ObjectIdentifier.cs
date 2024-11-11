@@ -16,20 +16,20 @@ namespace Opsive.UltimateCharacterController.Objects
     {
         [Tooltip("The value of the identifier.")]
         [SerializeField] protected uint m_ID;
-        [SerializeField] GameObject myAxe_item;
-        [SerializeField] GameObject myAxe;
+        [SerializeField] GameObject myObject_item;
+        [SerializeField] GameObject myObject;
         [SerializeField] float waitTimeForItem;
         public uint ID { get { return m_ID; } set { m_ID = value; } }
         private void OnTriggerEnter(Collider other)
         {
-            myAxe.SetActive(true);
-            myAxe_item.SetActive(true);
+            myObject.SetActive(true);
+            myObject_item.SetActive(true);
             StartCoroutine(BuildItem());
         }
         private void OnTriggerExit(Collider other)
         {
-            myAxe.SetActive(false);
-            myAxe_item.SetActive(false);
+            myObject.SetActive(false);
+            myObject_item.SetActive(false);
         }
         IEnumerator BuildItem()
         {
