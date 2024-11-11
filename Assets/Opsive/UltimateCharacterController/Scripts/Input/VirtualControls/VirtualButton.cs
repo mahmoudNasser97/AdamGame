@@ -43,17 +43,23 @@ namespace Opsive.UltimateCharacterController.Input.VirtualControls
 
         private void Update()
         {
-            // Fake the button press
-            if (Input.GetButtonDown(m_ControllerButtonName) && !m_Pressed)
-            {
-                m_Pressed = true;
-                m_Frame = Time.frameCount;
-            }
-            if (Input.GetButtonUp(m_ControllerButtonName) && m_Pressed)
-            {
-                m_Pressed = false;
-                m_Frame = Time.frameCount;
-            }
+            //// Fake the button press
+            //if (Input.GetButtonDown(m_ControllerButtonName) && !m_Pressed)
+            //{
+            //    m_Pressed = true;
+            //    m_Frame = Time.frameCount;
+            //}
+            //if (Input.GetButtonUp(m_ControllerButtonName) && m_Pressed)
+            //{
+            //    m_Pressed = false;
+            //    m_Frame = Time.frameCount;
+            //}
+        }
+        public void DebugBttonDown()
+        {
+           
+                Debug.Log("!!!!!!!!!!!!!!!!!!!!!!!! Button Down");
+            
         }
 
         /// <summary>
