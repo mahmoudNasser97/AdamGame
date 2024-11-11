@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Sandbox/Samy Village 1.unity
     guid: ebc5b786e0e502f4e9f66f42bd6679ec
   - enabled: 0
@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/DialogueQuests/Demo/DemoActorRelationPart2.unity
     guid: 22bee9a39d767cf49a1709548332eec0
+  - enabled: 1
+    path: Assets/Sandbox/Samy Village 2.unity
+    guid: 182cde38353cdeb42bf830728d6cea4f
   m_configObjects: {}

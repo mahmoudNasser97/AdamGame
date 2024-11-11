@@ -8,10 +8,10 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 2
   targetDevice: 2
   useOnDemandResources: 0
-  accelerometerFrequency: 60
+  accelerometerFrequency: 100
   companyName: MS
   productName: Adam
   defaultCursor: {fileID: 0}
@@ -161,7 +161,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.DefaultCompany.ThirdPersonOpenWorld
+    Standalone: com.MS.Adam
+    iPhone: com.MS.Adam
   buildNumber:
     Standalone: 0
     VisionOS: 0
