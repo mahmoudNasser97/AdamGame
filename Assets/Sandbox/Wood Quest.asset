@@ -689,11 +689,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "MDF \u0640\uFEDF\u0627 \uFE90\uFEB8\uFEA7 \u062A\uFEAA\uFE9F\u0648
+          \uFEDE\uFEEB"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Did you find the MDF wood ?
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 1
@@ -750,7 +751,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Thanks For this help
+        value: Thanks For helping
         type: 0
         typeString: 
       - title: Sequence
@@ -758,11 +759,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\uFEDA\uFE97\uFEAA\uFECB\uFE8E\uFEB4\uFEE3 \uFBFD\uFEE0\uFECB \u0627\uFEAE\uFEDC\uFEB7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Thanks For this help
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 1
@@ -815,11 +816,13 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Ar
-        value: 
+        value: ".\u0644\uFEB0\uFEE8\uFEE4\uFEDF\u0627 \u0627\uFEAC\uFEEB \u062D\uFEFC\uFEBB\u0625
+          \uFEF2\uFED3 \u0621\uFEAA\uFE92\uFEE0\uFEDF MDF \uFE90\uFEB8\uFEA7 \uFECA\uFEE4\uFE9F\uFE84\uFEB3
+          \u060C\uFECA\uFE92\uFEC4\uFEDF\uFE8E\uFE91"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: 'Sure, I need You to collect MDF wood to start fixing this home '
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 1
@@ -878,11 +881,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Ar
-        value: 
+        value: ".\uFEAA\uFEF4\uFEDB\uFE84\uFE98\uFEDF\uFE8E\uFE91 \u060C\uFE8E\uFEE8\uFEB4\uFEA3"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Okay sure
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 1
@@ -912,11 +915,11 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 1
         type: 5
@@ -928,21 +931,21 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Here you go.
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Ar
-        value: 
+        value: ".\uFEEE\uFEEB \uFE8E\uFEEB \u060C\uFEDE\uFEC0\uFED4\uFE97"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Here you go.
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 1
@@ -993,7 +996,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: not yet , i will be back
+        value: Not yet , i will be back
         type: 0
         typeString: 
       - title: Sequence
@@ -1001,11 +1004,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFE8E\uFE92\uFEF3\uFEAE\uFED7 \u062F\uFEEE\uFECB\uFE84\uFEB3 \u060C\uFEAA\uFECC\uFE91
+          \uFEB2\uFEF4\uFEDF"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Not yet , i will be back
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 1
@@ -1068,11 +1072,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\uFEDA\uFEDF \u0627\uFEAE\uFEDC\uFEB7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Thank you
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 1
@@ -1237,11 +1241,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "\u061F\u0645\u062F\u0622 \uFE8E\uFEF3 \u060C\uFE94\uFE91\uFEAE\uFECC\uFEDF\u0627
+          \u0647\uFEAC\uFEEB \u062D\uFEFC\uFEBB\u0625 \uFEF2\uFED3 \uFEF2\uFE97\uFEAA\uFECB\uFE8E\uFEB4\uFEE3
+          \uFEDA\uFEE8\uFEDC\uFEE4\uFEF3 \uFEDE\uFEEB"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Can you help me fixing this cart Adam?
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -1306,11 +1312,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\u064A\uFEAA\uFEF4\uFEB3 \u060C\uFEAA\uFEF4\uFEDB\uFE84\uFE98\uFEDF\uFE8E\uFE91"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: For Sure Sir!
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -1376,11 +1382,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\uFE8E\uFEEC\uFEA3\uFEFC\uFEBB\u0625 \u0621\uFEAA\uFE92\uFEDF \u0621\u0627\uFEAE\uFED4\uFEBC\uFEDF\u0627
+          \uFE94\uFED8\uFEC4\uFEE8\uFEE4\uFEDF\u0627 \uFBFD\uFEDF\u0625 \uFE90\uFEEB\u0630\u0627
+          !\u0645\u062F\u0622 \uFE8E\uFEF3 \uFEDA\uFEDF \u0627\uFEAE\uFEDC\uFEB7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Thank you Adam ! Go to yellow Area to start fixing it!
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -1439,11 +1447,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFEAA\uFECC\uFE91 \uFED2\uFEF4\uFEDB \u0641\uFEAE\uFECB\u0623 \uFEFB
+          \u060C\uFED2\uFEB3\u0622"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: I'm Sorry, I don't know how yet
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -1502,11 +1511,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\u0645\u062F\u0622 \uFE8E\uFEF3 \u060C\uFE94\uFEE0\uFEDC\uFEB8\uFEE3
+          \uFEFB"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: No Problem, Adam.
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -1626,11 +1636,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "\u0647\u0648\u0623"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Ohhhhhhh
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -1681,7 +1691,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Thank you
+        value: Thank you!
         type: 0
         typeString: 
       - title: Sequence
@@ -1696,11 +1706,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\uFEDA\uFEDF \u0627\uFEAE\uFEDC\uFEB7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Thank you!
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 2
@@ -1723,8 +1733,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 23.849884}
-    canvasZoom: 1.2999998
+    canvasScrollPosition: {x: 0, y: 178.99997}
+    canvasZoom: 1.0000001
   - id: 3
     fields:
     - title: Title
@@ -1881,11 +1891,12 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Ar
-        value: 
+        value: "\u061F\u064A\uFEAA\uFEF4\uFEB3 \u060C\uFEDA\uFE97\uFEAA\uFECB\uFE8E\uFEB4\uFEE3
+          \uFEF2\uFEE8\uFEE8\uFEDC\uFEE4\uFEF3 \uFEDE\uFEEB"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: May I help you Sir ?
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -1944,11 +1955,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "\u061FMDF \u0640\uFEDF\u0627 \uFE90\uFEB8\uFEA7 \u062A\uFEAA\uFE9F\u0648
+          \uFEDE\uFEEB"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Did you find the MDF wood  ?
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -2005,7 +2017,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Thanks For this help
+        value: Thanks For helping!
         type: 0
         typeString: 
       - title: Sequence
@@ -2013,11 +2025,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\uFEDA\uFE97\uFEAA\uFECB\uFE8E\uFEB4\uFEE3 \uFBFD\uFEE0\uFECB \u0627\uFEAE\uFEDC\uFEB7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Thanks For helping!
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -2071,11 +2083,16 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\u0629\uFEAE\uFEF4\uFE92\uFEDC\uFEDF\u0627 \u0629\uFEAE\uFEA0\uFEB8\uFEDF\u0627
+          \u0647\uFEAC\uFEEB \uFE96\uFEA4\uFE97 \uFE94\uFEF4\uFEB3\u0627\u0631\uFEAA\uFEDF\u0627
+          \uFE94\uFECB\uFE8E\uFED8\uFEDF\u0627 \u0647\uFEAC\uFEEB \u0621\uFE8E\uFEE8\uFE91
+          \u0621\uFEAA\uFE92\uFEDF MDF \u0640\uFEDF\u0627 \uFE90\uFEB8\uFEA7 \uFECA\uFEE4\uFE9F
+          \uFEDA\uFEE8\uFEE3 \u062C\uFE8E\uFE98\uFEA3\u0623 \u060C\uFEE2\uFECC\uFEE7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Yes, I need You to collect MDF wood to start Building this Classroom
+          under this big tree.
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -2134,11 +2151,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Ar
-        value: 
+        value: ".\uFEAA\uFEF4\uFEDB\uFE84\uFE98\uFEDF\uFE8E\uFE91 \u060C\uFE8E\uFEE8\uFEB4\uFEA3"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Okay sure
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -2194,11 +2211,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFEEE\uFEEB \uFE8E\uFEEB \u060C\uFEDE\uFEC0\uFED4\uFE97"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Here you go.
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -2249,7 +2266,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: not yet , i will be back
+        value: Not yet , i will be back
         type: 0
         typeString: 
       - title: Sequence
@@ -2257,11 +2274,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFE8E\uFE92\uFEF3\uFEAE\uFED7 \u062F\uFEEE\uFECB\uFE84\uFEB3 \u060C\uFEAA\uFECC\uFE91
+          \uFEB2\uFEF4\uFEDF"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Not yet , i will be back
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -2306,7 +2324,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Thank you
+        value: Thank you!
         type: 0
         typeString: 
       - title: Sequence
@@ -2320,11 +2338,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\uFEDA\uFEDF \u0627\uFEAE\uFEDC\uFEB7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Thank you!
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 3
@@ -2347,8 +2365,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 50.59571, y: 46.628723}
-    canvasZoom: 1.9100001
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.8300011
   - id: 4
     fields:
     - title: Title
@@ -2501,11 +2519,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "\u061F\u0645\u062F\u0622 \uFE8E\uFEF3 \u0629\uFEAE\uFEF4\uFEA4\uFE92\uFEDF\u0627
+          \u0627\uFEAC\uFEEB \uFED2\uFEF4\uFEC8\uFEE8\uFE97 \uFEF2\uFED3 \uFEF2\uFE97\uFEAA\uFECB\uFE8E\uFEB4\uFEE3
+          \uFEDA\uFEE8\uFEDC\uFEE4\uFEF3 \uFEDE\uFEEB"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Can you help me Cleaning this lake Adam?
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -2570,11 +2590,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\u064A\uFEAA\uFEF4\uFEB3 \u060C\uFEAA\uFEF4\uFEDB\uFE84\uFE98\uFEDF\uFE8E\uFE91"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: For Sure Sir!
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -2640,11 +2660,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFED2\uFEF4\uFEC8\uFEE8\uFE98\uFEDF\u0627 \uFEF2\uFED3 \u0623\uFEAA\uFE91\u0627\u0648
+          \u0629\uFEAE\uFEF4\uFEA4\uFE92\uFEDF\u0627 \uFBFD\uFEDF\u0625 \uFE90\uFEEB\u0630\u0627
+          !\u0645\u062F\u0622 \uFE8E\uFEF3 \uFEDA\uFEDF \u0627\uFEAE\uFEDC\uFEB7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Thank you Adam ! Go to the Lake and start cleaning
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -2703,11 +2725,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFEAA\uFECC\uFE91 \uFED2\uFEF4\uFEDB \u0641\uFEAE\uFECB\u0623 \uFEFB
+          \u060C\uFED2\uFEB3\u0622"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: I'm Sorry, I don't know how yet
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -2766,11 +2789,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\u0645\u062F\u0622 \uFE8E\uFEF3 \u060C\uFE94\uFEE0\uFEDC\uFEB8\uFEE3
+          \uFEFB"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: No Problem, Adam.
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -2878,7 +2902,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Thank you Adam
+        value: Thank you Adam!
         type: 0
         typeString: 
       - title: Sequence
@@ -2888,11 +2912,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\u0645\u062F\u0622 \uFE8E\uFEF3 \uFEDA\uFEDF \u0627\uFEAE\uFEDC\uFEB7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Thank you Adam!
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -2945,11 +2969,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "\u061F\uFE8E\uFEEC\uFED4\uFEF4\uFEC8\uFEE8\uFE98\uFE91 \uFE96\uFEE4\uFED7
+          \uFEDE\uFEEB"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: 'Did you Clean it ? '
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -3014,11 +3039,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFEF2\uFEEB \uFE8E\uFEEB \u060C\uFEDE\uFEC0\uFED4\uFE97"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Here you go.
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -3077,11 +3102,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFE8E\uFE92\uFEF3\uFEAE\uFED7 \u062F\uFEEE\uFECB\uFE84\uFEB3 \u060C\uFEAA\uFECC\uFE91
+          \uFEB2\uFEF4\uFEDF"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Not yet , i will be back
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -3138,11 +3164,13 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFEAE\uFEEC\uFEE8\uFEDF\uFE8E\uFE91 \u0629\uFEAE\uFEF4\uFEA4\uFE92\uFEDF\u0627
+          \uFEC2\uFE91\u0631\u0627\u0648 \uFE90\uFEEB\u0630\u0627 \u0646\uFEF5\u0627
+          \u060C\uFE8E\uFEE8\uFEB4\uFEA3"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Okay now Go and Link the lake with the river
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -3201,11 +3229,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFEAA\uFEF4\uFEDB\uFE84\uFE98\uFEDF\uFE8E\uFE91 \u060C\uFE8E\uFEE8\uFEB4\uFEA3"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Okay Sure
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -3258,11 +3286,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\u0645\u062F\u0622 \uFE8E\uFEF3 \uFEDA\uFEDF \u0627\uFEAE\uFEDC\uFEB7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Thank you Adam !
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -3321,11 +3349,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\uFE94\uFECC\uFEB4\uFEDF\u0627\u0648 \uFE90\uFEA3\uFEAE\uFEDF\u0627
+          \uFBFD\uFEE0\uFECB"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: You are welcome!
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 4
@@ -3348,7 +3377,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 43.59735, y: 0}
+    canvasScrollPosition: {x: 283.84116, y: 0}
     canvasZoom: 0.8200004
   - id: 5
     fields:
@@ -3506,11 +3535,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "\u061FMDF \u0640\uFEDF\u0627 \uFE90\uFEB8\uFEA7 \u062A\uFEAA\uFE9F\u0648
+          \uFEDE\uFEEB"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Did you find the MDF wood  ?
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
@@ -3567,7 +3597,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Thanks For this help
+        value: Thanks For helping!
         type: 0
         typeString: 
       - title: Sequence
@@ -3575,11 +3605,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\uFEDA\uFE97\uFEAA\uFECB\uFE8E\uFEB4\uFEE3 \uFBFD\uFEE0\uFECB \u0627\uFEAE\uFEDC\uFEB7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Thanks For helping!
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
@@ -3624,7 +3654,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: collect MDF wood to start Building this Classroom under this big tree
+        value: Collect MDF wood to start Building this Classroom under this big tree
         type: 0
         typeString: 
       - title: Sequence
@@ -3632,11 +3662,14 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\u0629\uFEAE\uFEF4\uFE92\uFEDC\uFEDF\u0627 \u0629\uFEAE\uFEA0\uFEB8\uFEDF\u0627
+          \u0647\uFEAC\uFEEB \uFE96\uFEA4\uFE97 \uFE94\uFEF4\uFEB3\u0627\u0631\uFEAA\uFEDF\u0627
+          \uFE94\uFECB\uFE8E\uFED8\uFEDF\u0627 \u0647\uFEAC\uFEEB \u0621\uFE8E\uFEE8\uFE91
+          \u0621\uFEAA\uFE92\uFEDF MDF \u0640\uFEDF\u0627 \uFE90\uFEB8\uFEA7 \uFECA\uFEE4\uFE9F"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Collect MDF wood to start Building this Classroom under this big tree
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
@@ -3695,11 +3728,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Ar
-        value: 
+        value: ".\uFEAA\uFEF4\uFEDB\uFE84\uFE98\uFEDF\uFE8E\uFE91 \u060C\uFE8E\uFEE8\uFEB4\uFEA3"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Okay sure
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
@@ -3755,11 +3788,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFEEE\uFEEB \uFE8E\uFEEB \u060C\uFEDE\uFEC0\uFED4\uFE97"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Here you go.
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
@@ -3810,7 +3843,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: not yet , i will be back
+        value: Not yet , i will be back
         type: 0
         typeString: 
       - title: Sequence
@@ -3818,11 +3851,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: ".\uFE8E\uFE92\uFEF3\uFEAE\uFED7 \u062F\uFEEE\uFECB\uFE84\uFEB3 \u060C\uFEAA\uFECC\uFE91
+          \uFEB2\uFEF4\uFEDF"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Not yet , i will be back
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
@@ -3867,7 +3901,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Thank you
+        value: Thank you!
         type: 0
         typeString: 
       - title: Sequence
@@ -3884,11 +3918,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Ar
-        value: 
+        value: "!\uFEDA\uFEDF \u0627\uFEAE\uFEDC\uFEB7"
         type: 4
         typeString: CustomFieldType_Localization
       - title: En
-        value: 
+        value: Thank you!
         type: 4
         typeString: CustomFieldType_Localization
       conversationID: 5
