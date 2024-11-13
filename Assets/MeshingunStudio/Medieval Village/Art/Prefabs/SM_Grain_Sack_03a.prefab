@@ -67,6 +67,7 @@ GameObject:
   - component: {fileID: 1031309108}
   - component: {fileID: 1031309109}
   - component: {fileID: 2879389038926478882}
+  - component: {fileID: 8772118111047175444}
   m_Layer: 0
   m_Name: SM_Grain_Sack_03a_LOD6
   m_TagString: Untagged
@@ -337,3 +338,25 @@ MonoBehaviour:
   hitFxFadeOutDuration: 0.25
   hitFxColor: {r: 1, g: 1, b: 1, a: 1}
   hitFxRadius: 0.5
+--- !u!64 &8772118111047175444
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031309106}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300012, guid: abc00000000012126587646213182457, type: 3}

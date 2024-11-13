@@ -1238,7 +1238,16 @@ MonoBehaviour:
 
           SetActive(DustThick,true);
 
-          SetActive(HouseMagic,true)'
+          SetActive(HouseMagic,true);
+
+          SetActive(1,false);
+
+          SetActive(2nd
+          Area,true);
+
+          SetActive(2,true);
+
+          SetActive(3,true)'
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -1273,8 +1282,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 10.200865}
-    canvasZoom: 0.92000103
+    canvasScrollPosition: {x: 99.88272, y: 0}
+    canvasZoom: 0.98000115
   - id: 2
     fields:
     - title: Title
@@ -1516,8 +1525,8 @@ MonoBehaviour:
       conditionsString: 
       userScript: 'SetQuestState("Cart fixing", "active");
 
-        ShowAlert("ShowAlert(\"New
-        Quest: Fix The Cart\")")'
+        ShowAlert("New
+        Quest: Fix The Cart")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -1876,7 +1885,9 @@ MonoBehaviour:
           SetActive(MagicExplosion,true);
 
           SetActive(NPC
-          Dialgue (2),false)'
+          Dialgue (2),false);
+
+          SetActive(4,false)'
         type: 0
         typeString: 
       - title: Ar
@@ -1907,8 +1918,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 90.104645, y: 18.80395}
-    canvasZoom: 1.18
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.97000015
   - id: 3
     fields:
     - title: Title
@@ -2504,7 +2515,12 @@ MonoBehaviour:
       - title: Sequence
         value: 'SetActive(SeatingStudents,true);
 
-          SetActive(SchoolMagic,true)'
+          SetActive(SchoolMagic,true);
+
+          SetActive(2,false);
+
+          SetActive(3rd
+          Area,true)'
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -2539,8 +2555,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.8300011
+    canvasScrollPosition: {x: 16.883057, y: 0}
+    canvasZoom: 0.7700012
   - id: 4
     fields:
     - title: Title
@@ -2786,10 +2802,10 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 'ShowAlert("ShowAlert(\"New Quest: Fix The Lake\")");
+      userScript: 'SetQuestState("Fix The Lake", "active");
 
-        SetQuestState("Fix
-        The Lake", "active")'
+        ShowAlert("New
+        Quest: Fix The Lake")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -3108,7 +3124,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
+        x: 81.17647
         y: 386
         width: 160
         height: 30
@@ -3456,7 +3472,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: SetActive(LakeMagic,true)
+        value: 'SetActive(LakeMagic,true);
+
+          SetActive(5,false)'
         type: 0
         typeString: 
       - title: Ar
@@ -3467,6 +3485,10 @@ MonoBehaviour:
         value: Thank you Adam !
         type: 4
         typeString: CustomFieldType_Localization
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -3519,7 +3541,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetActive(5,false)
         type: 0
         typeString: 
       - title: Ar
@@ -3551,8 +3573,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 162.65015, y: 21.796978}
-    canvasZoom: 0.9100003
+    canvasScrollPosition: {x: 274.99988, y: 0}
+    canvasZoom: 0.76000035
   - id: 5
     fields:
     - title: Title
@@ -4084,7 +4106,12 @@ MonoBehaviour:
           SetActive(SchoolMagic,true);
 
           SetActive(NPC
-          Dialgue,false)'
+          Dialgue,false);
+
+          SetActive(2,false);
+
+          SetActive(3rd
+          Area,true)'
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -4119,8 +4146,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 16.940517, y: 0}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 50.440323, y: 0}
+    canvasZoom: 0.88
   - id: 6
     fields:
     - title: Title
@@ -4368,10 +4395,10 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 'ShowAlert("ShowAlert(\"New Quest: Build the well")");
+      userScript: 'SetQuestState("BuildtheWell", "active");
 
-        SetQuestState("BuildtheWell",
-        "active")'
+        ShowAlert("New
+        Quest: Build the well")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4663,9 +4690,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(P_FX_water_FVP (2),true);
-
-          SetActive(0_Dirtylake,false)'
+        value: 
         type: 0
         typeString: 
       - title: Ar
@@ -5134,8 +5159,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 43.868122, y: 0}
-    canvasZoom: 0.8200003
+    canvasScrollPosition: {x: 60.137466, y: 0}
+    canvasZoom: 0.7000004
   - id: 7
     fields:
     - title: Title
@@ -5765,8 +5790,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 21.817383, y: 0}
+    canvasZoom: 1.1199999
   syncInfo:
     syncActors: 0
     syncItems: 0
