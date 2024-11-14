@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9253636bf2648bd813257f451f8486, type: 3}
   m_Name: Highlight Plus Profile
   m_EditorClassIdentifier: 
-  effectGroup: 0
+  effectGroup: 1
   effectGroupLayer:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -23,11 +23,11 @@ MonoBehaviour:
   cullBackFaces: 1
   padding: 0
   normalsOption: 0
-  fadeInDuration: 3.67
-  fadeOutDuration: 7.71
-  cameraDistanceFade: 1
+  fadeInDuration: 0
+  fadeOutDuration: 0
+  cameraDistanceFade: 0
   cameraDistanceFadeNear: 0
-  cameraDistanceFadeFar: 50
+  cameraDistanceFadeFar: 1000
   constantWidth: 1
   minimumWidth: 0
   overlay: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   outlineGradientInLocalSpace: 0
   outlineBlurPasses: 2
-  outlineWidth: 1.47
+  outlineWidth: 0.92
   outlineQuality: 0
   outlineEdgeMode: 0
   outlineEdgeThreshold: 0.995
@@ -85,15 +85,15 @@ MonoBehaviour:
   outlineContourStyle: 0
   outlineVisibility: 0
   outlineIndependent: 0
-  outlineMaskMode: 2
-  glow: 0.73
-  glowWidth: 0.11
+  outlineMaskMode: 0
+  glow: 0
+  glowWidth: 0.4
   glowQuality: 0
   glowBlurMethod: 0
   glowDownsampling: 2
   glowHQColor: {r: 0.64, g: 1, b: 0, a: 1}
   glowDithering: 1
-  glowDitheringStyle: 1
+  glowDitheringStyle: 0
   glowMagicNumber1: 0.75
   glowMagicNumber2: 0.5
   glowAnimationSpeed: 1
@@ -120,7 +120,7 @@ MonoBehaviour:
   innerGlowColor: {r: 1, g: 1, b: 1, a: 1}
   innerGlowVisibility: 0
   targetFX: 0
-  targetFXTexture: {fileID: 0}
+  targetFXTexture: {fileID: 2800000, guid: 1de3c566a6c8c405b9f6f453137273ec, type: 3}
   targetFXColor: {r: 1, g: 1, b: 1, a: 1}
   targetFXRotationSpeed: 50
   targetFXInitialScale: 4
@@ -137,19 +137,19 @@ MonoBehaviour:
   targetFXTransitionDuration: 0.5
   targetFXStayDuration: 1.5
   targetFXVisibility: 1
-  iconFX: 0
+  iconFX: 1
   iconFXMesh: {fileID: 3613567641014311022, guid: 0619ab933f4044ef7bca0b64517837b3, type: 3}
-  iconFXLightColor: {r: 1, g: 0.66730344, b: 0, a: 1}
-  iconFXDarkColor: {r: 0.5283019, g: 0, b: 0.037698925, a: 1}
+  iconFXLightColor: {r: 0.7434745, g: 1, b: 0, a: 1}
+  iconFXDarkColor: {r: 0, g: 0.06829405, b: 1, a: 1}
   iconFXRotationSpeed: 50
-  iconFXAnimationOption: 10
+  iconFXAnimationOption: 0
   iconFXAnimationAmount: 0.1
   iconFXAnimationSpeed: 3
-  iconFXScale: 2.32
+  iconFXScale: 2.36
   iconFXScaleToRenderBounds: 0
-  iconFXOffset: {x: 0, y: 1.1, z: 0}
-  iconFXTransitionDuration: 3.23
-  iconFXStayDuration: 4.42
+  iconFXOffset: {x: 0, y: 1, z: 0}
+  iconFXTransitionDuration: 0.5
+  iconFXStayDuration: 1.5
   seeThrough: 2
   seeThroughOccluderMask:
     serializedVersion: 2

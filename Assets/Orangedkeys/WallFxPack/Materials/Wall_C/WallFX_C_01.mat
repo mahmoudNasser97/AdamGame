@@ -88,10 +88,10 @@ Material:
     - _Float5: 3.64
     - _Float6: 1.24
     - _Hue: -1.5
-    - _OutlineMult: 5
+    - _OutlineMult: 2.86
     - _PushMult: -50
     - _SurfaceOpacity: 0
-    - _TransitionOutlineMult: 2.05
+    - _TransitionOutlineMult: 1.48
     - _WallOpening: 0
     - __dirty: 0
     m_Colors:

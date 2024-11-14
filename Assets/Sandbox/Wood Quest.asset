@@ -68,7 +68,7 @@ MonoBehaviour:
   - id: 2
     fields:
     - title: Name
-      value: Carpenter and Homes Fixer
+      value: GrandFather
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -94,7 +94,7 @@ MonoBehaviour:
   - id: 3
     fields:
     - title: Name
-      value: CartOwner
+      value: GrandFather
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -120,7 +120,7 @@ MonoBehaviour:
   - id: 4
     fields:
     - title: Name
-      value: Teacher
+      value: GrandFather
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -146,7 +146,7 @@ MonoBehaviour:
   - id: 5
     fields:
     - title: Name
-      value: LakeMan
+      value: GrandFather
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -172,7 +172,7 @@ MonoBehaviour:
   - id: 6
     fields:
     - title: Name
-      value: The Well Man
+      value: GrandFather
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -198,7 +198,7 @@ MonoBehaviour:
   - id: 7
     fields:
     - title: Name
-      value: FisherMan
+      value: GrandFather
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -1403,7 +1403,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 340.3973
+        x: 339.3973
         y: 14.223351
         width: 160
         height: 30
@@ -1467,7 +1467,7 @@ MonoBehaviour:
         destinationDialogueID: 5
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("BoatFixing") == "unassigned"
+      conditionsString: CurrentQuestState("Cart fixing") == "unassigned"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1848,7 +1848,7 @@ MonoBehaviour:
         destinationDialogueID: 13
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("BoatFixing") == "success"
+      conditionsString: CurrentQuestState("Cart fixing") == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -1926,8 +1926,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.97000015
+    canvasScrollPosition: {x: 104.20545, y: 0}
+    canvasZoom: 1.0000001
   - id: 3
     fields:
     - title: Title
@@ -5280,8 +5280,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 266.94275
-        y: 33.710953
+        x: 398.19278
+        y: 39.068115
         width: 160
         height: 30
     - id: 1
@@ -5671,11 +5671,11 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 7
         type: 5
@@ -5687,19 +5687,21 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Ohhhhhhh
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
-        value: SetActive(Stations,false)
+        value: 'Delay(5);
+
+          SetActive(Stations,false)'
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Response Menu Sequence
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Ar
         value: "\u0647\u0648\u0623"
         type: 4
@@ -5722,16 +5724,15 @@ MonoBehaviour:
         destinationDialogueID: 13
         isConnector: 0
         priority: 2
-      conditionsString: Variable["IsBoatFixed"] == true and (CurrentQuestState("BoatFixing")
-        == "success")
+      conditionsString: CurrentQuestState("BoatFixing") == "success"
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 452.20618
-        y: 149.03062
+        x: 522.7419
+        y: 224.9235
         width: 160
         height: 30
     - id: 13
@@ -5787,25 +5788,25 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: SetQuestState("Cart fixing", "success")
+      userScript: SetQuestState("BoatFixing", "success")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 462.55328
-        y: 296.081
+        x: 518.80334
+        y: 341.6167
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 21.817383, y: 0}
+    canvasScrollPosition: {x: 5.3571777, y: 0}
     canvasZoom: 1.1199999
   syncInfo:
-    syncActors: 0
+    syncActors: 1
     syncItems: 0
     syncLocations: 0
     syncVariables: 0
-    syncActorsDatabase: {fileID: 0}
+    syncActorsDatabase: {fileID: 11400000}
     syncItemsDatabase: {fileID: 0}
     syncLocationsDatabase: {fileID: 0}
     syncVariablesDatabase: {fileID: 0}
