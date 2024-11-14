@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sandbox/Samy Village 2.unity
     guid: 182cde38353cdeb42bf830728d6cea4f
+  - enabled: 0
+    path: Assets/Sandbox/MainMenu 1.unity
+    guid: aefe263716655e94db0c1460ca32828c
+  - enabled: 0
+    path: Assets/Sandbox/Samy Village 3.unity
+    guid: 3a762a8e6b60b4a859199dcd45277431
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 45adc05acacdb3d47ac7b60e91d75cdb, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 917f00282be13e34f9a30c0d0090091a, type: 2}

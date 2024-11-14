@@ -321,11 +321,11 @@ MonoBehaviour:
     - title: Entry 1 State
       value: active
       type: 0
-      typeString: 
+      typeString: CustomFieldType_QuestState
     - title: Entry 1
       value: Triggering the cart
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Entry 1 IsFixed
       value: False
       type: 2
@@ -495,7 +495,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: 
+      value: Building a Boat in the village
       type: 0
       typeString: CustomFieldType_Text
     - title: Success Description
@@ -512,6 +512,14 @@ MonoBehaviour:
       typeString: CustomFieldType_QuestState
     - title: Is Item
       value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
       type: 2
       typeString: CustomFieldType_Boolean
   locations: []
@@ -5337,7 +5345,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: CurrentQuestState("BoatFixing") == "unassigned"
-      userScript: 
+      userScript: SetQuestState("BoatFixing", "unassigned")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -5469,7 +5477,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
+        x: 80.89285
         y: 302
         width: 160
         height: 30
@@ -5685,7 +5693,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetActive(Stations,false)
         type: 0
         typeString: 
       - title: Response Menu Sequence
