@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CoinsManager : MonoBehaviour
 {
@@ -10,12 +11,13 @@ public class CoinsManager : MonoBehaviour
     public int Coins { get; private set; }
     public event Action OnCurrencyChanged;
 
+
     private void Awake()
     {
         LoadCurrency();
     }
     private void Start()
-    {
+    { 
         LoadCurrency();
     }
     public void AddCoins(int amount)

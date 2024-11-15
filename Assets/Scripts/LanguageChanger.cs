@@ -10,13 +10,13 @@ public class LanguageChanger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        DialogueManager.SetLanguage("En");
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(PlayerPrefs.GetString("Language") + "Language");
+        //Debug.Log(PlayerPrefs.GetString("Language") + "Language");
     }
     public void ChangeLang()
     {
@@ -30,5 +30,13 @@ public class LanguageChanger : MonoBehaviour
             DialogueManager.SetLanguage("Ar");
         }
         Debug.Log("Language Changeeeeddd");
+    }
+    public void ChangeIntoArabic()
+    {
+        DialogueManager.SetLanguage("Ar");
+    }
+    public void ChangeIntoEnglish()
+    {
+        DialogueManager.SetLanguage("En");
     }
 }
