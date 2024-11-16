@@ -3862,7 +3862,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetActive(ClassRoomNav,false)
         type: 0
         typeString: 
       - title: Ar
