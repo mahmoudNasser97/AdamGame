@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5753555878990758513}
   - component: {fileID: 1364654748121232589}
   - component: {fileID: 6117805348731684394}
+  - component: {fileID: 7818876243102161051}
   m_Layer: 0
   m_Name: Quest Trigger
   m_TagString: Untagged
@@ -314,6 +315,22 @@ MonoBehaviour:
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
   selectedDatabase: {fileID: 11400000, guid: dadc8c2256176e44199512aa2c0169a3, type: 2}
+--- !u!114 &7818876243102161051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289029782883920452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cee87030ab4a44446b8496e82d0898c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 0}
+  videoScreen: {fileID: 0}
+  playerController: {fileID: 0}
+  cutSceneTrigger: {fileID: 5753555878990758513}
 --- !u!1001 &9118510161279379693
 PrefabInstance:
   m_ObjectHideFlags: 0

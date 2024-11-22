@@ -1,23 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Video;
-namespace Opsive.UltimateCharacterController.Character
-{
-    using Opsive.Shared.Events;
-    using Opsive.Shared.Game;
-    using Opsive.UltimateCharacterController.Character.Abilities;
-    using Opsive.UltimateCharacterController.Character.Abilities.Items;
-    using Opsive.UltimateCharacterController.Game;
-    using Opsive.UltimateCharacterController.Input;
-    using Opsive.UltimateCharacterController.StateSystem;
+
 
     public class CutSceneHandler : MonoBehaviour
     {
         public VideoPlayer videoPlayer;
         public GameObject videoScreen;
-        public UltimateCharacterLocomotionHandler playerController;
-        private void Start()
+        public BoxCollider cutSceneTrigger;
+    public GameObject cameraObject;
+    public Canvas playerControls;
+    public BoxCollider questCollider;
+    public AudioSource rainSFX;
+    public AudioSource backGroundSFX;
+    public bool endScene=false;
+    private void Start()
         {
             if (videoScreen != null)
                 videoScreen.SetActive(false);
@@ -28,7 +27,14 @@ namespace Opsive.UltimateCharacterController.Character
             if (other.CompareTag("Player"))
             {
                 PlayCutscene();
-                playerController.gameObject.SetActive(false);
+            cameraObject.SetActive(true);
+            playerControls.enabled = false;
+            rainSFX.Stop();
+            backGroundSFX.Stop();
+
+                //playerController.gameObject.SetActive(false);
+                //cutSceneTrigger.gameObject.SetActive(false);
+
             }
         }
 
@@ -51,8 +57,21 @@ namespace Opsive.UltimateCharacterController.Character
                 videoScreen.SetActive(false);
 
             vp.Stop();
-            playerController.gameObject.SetActive(true);
+        //playerController.gameObject.SetActive(true);
+        cameraObject.SetActive(false);
+        playerControls.enabled = true;
+        Destroy(questCollider.gameObject);
+        rainSFX.Play();
+        backGroundSFX.Play();
+        cutSceneTrigger.gameObject.SetActive(false);
             videoPlayer.loopPointReached -= OnVideoEnd;
+        if(endScene==true)
+        {
+            //LoadScene("MainMenu");
         }
+        }
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }
