@@ -36,6 +36,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9118510161279775337}
+  - {fileID: 7663317270569375683}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8354519931023528044
@@ -329,8 +330,91 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 0}
   videoScreen: {fileID: 0}
-  playerController: {fileID: 0}
   cutSceneTrigger: {fileID: 5753555878990758513}
+  cameraObject: {fileID: 0}
+  playerControls: {fileID: 0}
+  questCollider: {fileID: 0}
+  rainSFX: {fileID: 0}
+  backGroundSFX: {fileID: 0}
+  endScene: 0
+--- !u!1001 &7892576799245859853
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1992163317571987469}
+    m_Modifications:
+    - target: {fileID: 556124552767384502, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4480451
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2753
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0013
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1925
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9990418
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.043766003
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 22.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336227597855949983, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_Name
+      value: DancingTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336227597855949983, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+--- !u!4 &7663317270569375683 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 563375176137223118, guid: 535e013706d87fd47b17fad7b7c9cfb9, type: 3}
+  m_PrefabInstance: {fileID: 7892576799245859853}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9118510161279379693
 PrefabInstance:
   m_ObjectHideFlags: 0

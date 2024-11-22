@@ -1119,7 +1119,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: SetEnabled(TimelineTrigger,true,TimelinePlayer)
         type: 0
         typeString: CustomFieldType_Text
       - title: Ar
@@ -1152,7 +1152,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 288
-        y: 218
+        y: 216.97958
         width: 160
         height: 30
     - id: 7
@@ -1255,7 +1255,11 @@ MonoBehaviour:
 
           SetActive(2,true);
 
-          SetActive(3,true)'
+          SetActive(3,true);
+
+          SetEnabled(TimelineTrigger,false,TimelinePlayer);
+
+          SetActive(DancingTrigger,true)'
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -1290,8 +1294,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 99.88272, y: 0}
-    canvasZoom: 0.98000115
+    canvasScrollPosition: {x: 14.97603, y: 0}
+    canvasZoom: 0.77000135
   - id: 2
     fields:
     - title: Title
@@ -1895,7 +1899,11 @@ MonoBehaviour:
           SetActive(NPC
           Dialgue (2),false);
 
-          SetActive(4,false)'
+          SetActive(4,false);
+
+          SetEnabled(TimelineTrigger,true,TimelinePlayer);
+
+          SetEnabled(TimelineTrigger,false,TimelinePlayer)'
         type: 0
         typeString: 
       - title: Ar
@@ -1926,8 +1934,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 104.20545, y: 0}
-    canvasZoom: 1.0000001
+    canvasScrollPosition: {x: 11.926636, y: 0}
+    canvasZoom: 1.09
   - id: 3
     fields:
     - title: Title
@@ -3449,7 +3457,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 496
+        x: 497.1364
         y: 386
         width: 160
         height: 30
@@ -3482,7 +3490,9 @@ MonoBehaviour:
       - title: Sequence
         value: 'SetActive(LakeMagic,true);
 
-          SetActive(5,false)'
+          SetActive(5,false);
+
+          SetEnabled(TimelineTrigger,true,TimelinePlayer)'
         type: 0
         typeString: 
       - title: Ar
@@ -3549,7 +3559,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: SetActive(5,false)
+        value: 'SetActive(5,false);
+
+          SetEnabled(TimelineTrigger,false,TimelinePlayer)'
         type: 0
         typeString: 
       - title: Ar
@@ -3581,8 +3593,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 274.99988, y: 0}
-    canvasZoom: 0.76000035
+    canvasScrollPosition: {x: 112.40399, y: 0}
+    canvasZoom: 0.8800003
   - id: 5
     fields:
     - title: Title
@@ -3988,7 +4000,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetEnabled(TimelineTrigger,true,TimelinePlayer)
         type: 0
         typeString: 
       - title: Ar
@@ -4119,7 +4131,9 @@ MonoBehaviour:
           SetActive(2,false);
 
           SetActive(3rd
-          Area,true)'
+          Area,true);
+
+          SetEnabled(TimelineTrigger,false,TimelinePlayer)'
         type: 0
         typeString: 
       - title: Response Menu Sequence
@@ -4154,8 +4168,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 50.440323, y: 0}
-    canvasZoom: 0.88
+    canvasScrollPosition: {x: 15.801346, y: 0}
+    canvasZoom: 1.06
   - id: 6
     fields:
     - title: Title
@@ -5072,7 +5086,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: SetActive(WellQuestMan,false)
+        value: 'SetActive(WellQuestMan,false);
+
+          SetEnabled(TimelineTrigger,true,TimelinePlayer)'
         type: 0
         typeString: 
       - title: Ar
@@ -5135,7 +5151,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: SetActive(WellQuestMan,false)
+        value: 'SetActive(WellQuestMan,false);
+
+          SetEnabled(TimelineTrigger,false,TimelinePlayer)'
         type: 0
         typeString: 
       - title: Ar
@@ -5167,8 +5185,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 60.137466, y: 0}
-    canvasZoom: 0.7000004
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.8200004
   - id: 7
     fields:
     - title: Title
@@ -5731,8 +5749,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 522.7419
-        y: 224.9235
+        x: 572.7419
+        y: 135.63776
         width: 160
         height: 30
     - id: 13
@@ -5768,7 +5786,11 @@ MonoBehaviour:
 
           SetActive(BoatExplosion,true);
 
-          SetActive(BoatQuestMan,false)'
+          SetActive(BoatQuestMan,false);
+
+          SetEnabled(TimelineTrigger,true,TimelinePlayer);
+
+          SetEnabled(TimelineTrigger,false,TimelinePlayer)'
         type: 0
         typeString: 
       - title: Ar
@@ -5794,13 +5816,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 518.80334
-        y: 341.6167
+        x: 576.16046
+        y: 212.25952
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 5.3571777, y: 0}
-    canvasZoom: 1.1199999
+    canvasScrollPosition: {x: 86.91917, y: 0}
+    canvasZoom: 1.2800002
   syncInfo:
     syncActors: 1
     syncItems: 0
