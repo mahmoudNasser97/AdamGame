@@ -1294,8 +1294,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 14.97603, y: 0}
-    canvasZoom: 0.77000135
+    canvasScrollPosition: {x: 172.48645, y: 0}
+    canvasZoom: 1.250001
   - id: 2
     fields:
     - title: Title
@@ -3210,8 +3210,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 600
-        y: 134
+        x: 603.9473
+        y: 156.36844
         width: 160
         height: 30
     - id: 16
@@ -3490,9 +3490,7 @@ MonoBehaviour:
       - title: Sequence
         value: 'SetActive(LakeMagic,true);
 
-          SetActive(5,false);
-
-          SetEnabled(TimelineTrigger,true,TimelinePlayer)'
+          SetActive(5,false)'
         type: 0
         typeString: 
       - title: Ar
@@ -3559,9 +3557,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(5,false);
-
-          SetEnabled(TimelineTrigger,false,TimelinePlayer)'
+        value: SetActive(5,false)
         type: 0
         typeString: 
       - title: Ar
@@ -3573,6 +3569,10 @@ MonoBehaviour:
         value: You are welcome!
         type: 4
         typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: f25efe09-4559-470f-9ce7-ef337ca547d8
+        type: 0
+        typeString: 
       conversationID: 4
       isRoot: 0
       isGroup: 0
@@ -3588,13 +3588,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 925.8298
-        y: 240.3404
+        x: 906.4914
+        y: 225.8667
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 112.40399, y: 0}
-    canvasZoom: 0.8800003
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.7300004
   - id: 5
     fields:
     - title: Title
@@ -5086,9 +5086,15 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 'SetActive(WellQuestMan,false);
+        value: 'Delay(5);
 
-          SetEnabled(TimelineTrigger,true,TimelinePlayer)'
+          SetActive(WellQuestMan,false);
+
+          SetEnabled(TimelineTrigger,true,TimelinePlayer);
+
+          SetEnabled(TimelineTrigger,false,TimelinePlayer);
+
+          SetActive(WellQuestMan,false)'
         type: 0
         typeString: 
       - title: Ar
@@ -5099,6 +5105,10 @@ MonoBehaviour:
         value: Thank you Adam !
         type: 4
         typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: ff6867bc-78cf-45bd-ad98-53d032116066
+        type: 0
+        typeString: 
       conversationID: 6
       isRoot: 0
       isGroup: 0
@@ -5120,8 +5130,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 910.95105
-        y: 131.19289
+        x: 923.62524
+        y: 171.66628
         width: 160
         height: 30
     - id: 21
@@ -5180,13 +5190,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 925.8298
-        y: 240.3404
+        x: 970.14087
+        y: 259.073
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.8200004
+    canvasScrollPosition: {x: 230.10347, y: 0}
+    canvasZoom: 0.68000114
   - id: 7
     fields:
     - title: Title
@@ -5821,8 +5831,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 86.91917, y: 0}
-    canvasZoom: 1.2800002
+    canvasScrollPosition: {x: 19.249046, y: 4.9593525}
+    canvasZoom: 0.8600006
   syncInfo:
     syncActors: 1
     syncItems: 0
