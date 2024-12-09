@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
-
+using UnityEngine.UI;
 
     public class CutSceneHandler : MonoBehaviour
     {
@@ -16,13 +16,21 @@ using UnityEngine.Video;
     public AudioSource rainSFX;
     public AudioSource backGroundSFX;
     public bool endScene=false;
+    public Button skipButton;
     private void Start()
-        {
-            if (videoScreen != null)
-                videoScreen.SetActive(false);
-        }
+    {
+        if (videoScreen != null)
+            videoScreen.SetActive(false);
+        StartCoroutine(InteractButton());
+    }
 
-        private void OnTriggerEnter(Collider other)
+    IEnumerator InteractButton()
+    { 
+        yield return new WaitForSeconds(3f);
+        skipButton.interactable = true;
+    }
+
+    private void OnTriggerEnter(Collider other)
         {
             if (other.CompareTag("Player"))
             {
@@ -46,11 +54,16 @@ using UnityEngine.Video;
                     videoScreen.SetActive(true);
 
                 videoPlayer.Play();
-
+            skipButton.gameObject.SetActive(true);
                 videoPlayer.loopPointReached += OnVideoEnd;
             }
         }
 
+    public void SkipCutScene()
+    {
+        OnVideoEnd(videoPlayer);
+
+    }
         private void OnVideoEnd(VideoPlayer vp)
         {
             if (videoScreen != null)
@@ -65,6 +78,7 @@ using UnityEngine.Video;
         backGroundSFX.Play();
         cutSceneTrigger.gameObject.SetActive(false);
             videoPlayer.loopPointReached -= OnVideoEnd;
+        skipButton.gameObject.SetActive(false);
         if(endScene==true)
         {
             //LoadScene("MainMenu");

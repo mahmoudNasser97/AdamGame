@@ -38,8 +38,8 @@ VideoClipImporter:
       aspectRatio: 0
       customWidth: 1920
       customHeight: 1080
-      bitrateMode: 0
-      spatialQuality: 0
+      bitrateMode: 1
+      spatialQuality: 1
     7:
       enableTranscoding: 1
       codec: 0
